@@ -65,10 +65,37 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+/* End of reset 
+Start of content  */
 .container {
     width: 800px;
     margin: 0 auto;
+}
+/* top nav */
+.top-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 30px 0 30px 0;
+    flex-wrap: wrap;
+    
+}
+.top-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.top-nav a:hover{
+    color: gray;
+}
+.head{
+    margin-bottom: 2%;
+}
+
+.head img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .top-content {
@@ -112,6 +139,40 @@ p {
     justify-content: center;
 }
 
+/* start of box colors  */
+#box1 {
+	background-color: teal;
+}
+#box2 {
+ background-color: gold;
+}
+#box3 {
+	background-color: cadetblue;
+}
+#box4 {
+	background-color: coral;
+}
+#box5 {
+	background-color: crimson;
+}
+#box6 {
+	background-color: forestgreen;
+}
+#box7 {
+	background-color: darkorchid;
+}
+#box8 {
+	background-color: hotpink;
+}
+#box9 {
+	background-color: indigo;
+}
+#box10 {
+	background-color: dodgerblue;
+}
+
+/* start of box colors  */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +204,58 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page  */
+
+/* Header Styling */
+header h2 {
+	margin-top: 30px;
+}
+.about-header {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+	border-bottom: 1px dashed black;
+}
+
+/* Main Page Styling */
+.page-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.section-grid {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+	margin: 20px 0;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed black;
+}
+.section-grid img {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.section-grid p {
+	margin-bottom: 15px;
+}
+.button {
+	text-decoration: none;
+	border: solid 2px black;
+	color: black;
+	font-size: 20px;
+	width: 60%;
+	text-align: center;
+	padding: 2% 5%;
+	border-radius: 10px;
+}
+.button:hover {
+	background-color: red;
+	border-color: lightgrey;
+	color: lightgrey;
+}
+
+ /* End Section */
+#about-end-section {
+	padding-bottom: 50px;
 }
